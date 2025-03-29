@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        maven 'nodejs'
+        nodejs 'NodeJS_Home' 
     }
     stages{
         stage('CheckOut'){
